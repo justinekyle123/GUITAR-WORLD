@@ -1,0 +1,31 @@
+
+.guitar-string{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.guitar-img img{
+    width: 50%;
+    height: 70%;
+    box-shadow: 0 0 3px black;
+    margin-top: 5%;
+    position: absolute;
+    left: 3%;
+}
+.guitar-string-content{
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 55%;
+}
+.guitar-string-content h1{
+    font-size: 50px;
+    color: rgb(11, 140, 190) ;
+    margin-bottom: 2%;
+}
+.guitar-string-content p{
+    font-size: 20px;
+    color: #333;
+}
