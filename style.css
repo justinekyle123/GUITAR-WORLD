@@ -113,59 +113,11 @@
 .get-started p{
     margin-bottom: 3%;
 }
-.guitar-types{
-    width: 90vw;
-    height: 90vh;
-    box-shadow: 0 0 2px black;
-    display: flex;
-    gap: 1em;
-    margin-top: 2%;
-    margin:auto;
-}
-.guitar-types h3{
-    color: #333;
-    margin-left: 2%;
-    margin-top: 2%;
-}
-.guitar-container1{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 3px black;
-    background-image: url(acoustic.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
 
-    animation: appear 2s linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-.guitar-container2{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 3px black;
-    background-image: url(electric.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
-.guitar-container3{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 3px black;
-    background-image: url(classical.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
-.guitar-container h1{
-    text-align: center;
+.guitar-container1 img{
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 0 2px black;
 }
     
 /*------------------------- GUITAR CHORDS --------------------------------------*/
