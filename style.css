@@ -3,14 +3,14 @@
     padding: 0;
 }
 .nav-bar{
-    background: rgb(11, 140, 190) ;
+    background: #333;
     width: 100vw;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10em;
-
+    position: absolute;
 
     animation: appear 2s linear;
     animation-timeline: view();
@@ -40,9 +40,11 @@
 .nav-bar ul{
     margin-right: 0%;
 }
+
+/*------------------------------------ HOME PAGE ------------------------- */ 
 .home-page{
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     background: url(home.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -53,11 +55,6 @@
     text-align: center;
 }
 
-.home-content h2{
-    color: rgb(255, 238, 5);
-    font-size: 40px;
-    margin-bottom: 5%;
-}
 .home-content h1{
     font-size: 60px;
     color: white;
@@ -67,7 +64,7 @@
     font-size: 20px;
 }
 .buttons{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .btn2{
@@ -90,36 +87,49 @@
     color: black;
 }
 
+    /* ----------------------------------- GET STARTED ----------------------------------------------------- */
+
 .get-started{
     width: 100vw;
-    height: 120vh;
+    height: 150vh;
     background: #ffffffad;
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+    margin-top: 3%;
 }
 .get-started-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     margin-top: 5%;
+    margin-left: 5%;
 }
 .get-started-content h1{
     font-size: 50px;
     margin-bottom: 2%;
+    color: rgb(11, 140, 190) ;
 }
 .get-started p{
     margin-bottom: 3%;
 }
-.guitar-container{
+.guitar-types{
+    width: 90vw;
+    height: 90vh;
+    box-shadow: 0 0 2px black;
     display: flex;
-    gap: 3em;
-    justify-content: center;
-    margin-top: 5%;
-    animation: appear 2s linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    gap: 1em;
+    margin-top: 2%;
+    margin:auto;
+}
+.guitar-types h3{
+    color: #333;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 .guitar-container1{
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 3px black;
     background-image: url(acoustic.jpg);
@@ -127,10 +137,14 @@
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
+
+    animation: appear 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 .guitar-container2{
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 3px black;
     background-image: url(electric.png);
@@ -140,8 +154,8 @@
     cursor: pointer;
 }
 .guitar-container3{
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 3px black;
     background-image: url(classical.jpg);
@@ -154,8 +168,7 @@
     text-align: center;
 }
     
-
-
+/*------------------------- GUITAR CHORDS --------------------------------------*/
 
 .basic-chords{
     width: 100vw;
