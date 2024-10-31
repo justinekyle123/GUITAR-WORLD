@@ -192,12 +192,20 @@ h3{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    color: black;
 }
+.chords-container1 h2{
+    font-size: 30px;
+}
+
 .chord-C{
     width: 90vw;
-    height: 400px;
+    height: 300px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     animation: appear linear;
     animation-timeline: view();
@@ -208,37 +216,65 @@ h3{
     height: 400px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .chord-E{
     width: 90vw;
     height: 400px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .chord-F{
     width: 90vw;
     height: 400px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .chord-G{
     width: 90vw;
     height: 400px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .chord-A{
     width: 90vw;
     height: 400px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .chords-container2{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: black;
 }
+.chords-container2 h2{
+    font-size: 30px;
+}
+
+/*-------------------------------CHORD TEXT < CHORD IMG-----------------------------------------*/
+.chord-text{
+    margin-left: 5%;
+}
+.chord-img{
+    margin-right: 2%;
+}
+
 
 
 @keyframes appear{
