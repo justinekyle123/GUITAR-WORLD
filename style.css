@@ -91,7 +91,7 @@
 
 .get-started{
     width: 100vw;
-    height: 150vh;
+    height: 300vh;
     background: #ffffffad;
     display: flex;
     flex-direction: column;
@@ -112,14 +112,26 @@
 }
 .get-started p{
     margin-bottom: 3%;
+    color: #333;
+    font-size: 20px;
 }
 
 .guitar-container1 img{
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
     box-shadow: 0 0 2px black;
 }
-    
+.guitar-container2 img{
+    width: 25%;
+    height: 25%;
+    box-shadow: 0 0 2px black;
+}
+.guitar-container3 img{
+    width: 25%;
+    height: 25%;
+    box-shadow: 0 0 2px black;
+}
+
 /*------------------------- GUITAR CHORDS --------------------------------------*/
 
 .basic-chords{
