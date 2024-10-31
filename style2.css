@@ -34,21 +34,20 @@
 /*-----------------------------FOOTER--------------------------------------*/
 .footer{
     width: 100vw;
-    height: 50vh;
-    background-color: #333;
+    background-color: #222;
+    height: 40vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .bottom-nav{
     width: 100vw;
     height: 80px;
     background-color: black;
-    position: static;
 }
 .icons{
-    width: 100vw;
-    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,21 +78,26 @@
 
 
 
-.footer-nav{
-    width: 100vw;
-    height: 40px;
-}
-.footer-nav {
+
+.footer-nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
 }
 .footer-nav a{
     color: #ffffff;
     font-size: 20px;
-    margin: 10px;
+    margin: 10px 10px;
     text-decoration: none;
-    
+    opacity: .7;
+    list-style: none;
+    transition: .3s;
+    letter-spacing: 2px;
+    padding: 0 10px;
+}
+.footer-nav a:hover{
+    opacity: 1;
 }
 
 /*-------------------footer copyright-----------------------------------------*/
@@ -108,6 +112,7 @@
 }
 .footer-copyrigth a{
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
+    letter-spacing: 1px;
 }
