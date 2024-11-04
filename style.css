@@ -122,7 +122,7 @@ h3{
     /* ----------------------------------- GET STARTED ----------------------------------------------------- */
 
 .get-started{
-    width: 90vw;
+    width: 95vw;
     margin:auto;
     height: 280vh;
     background: #fff;
@@ -142,7 +142,7 @@ h3{
     font-size: 50px;
     margin-bottom: 2%;
     color: #fff;
-    background:#444;
+    background:rgba(125, 0, 0, .9);
     padding:10px;
     box-shadow:0 0 2px black;
     border-radius:5px;
@@ -153,6 +153,8 @@ h3{
     font-size: 20px;
 }
 .get-started h3{
+ border-bottom:solid #444;
+ padding:10px 0px;
  color:#000;
 }
 /*---------------------------------------------GUITAR IMG --------------------------*/
@@ -197,16 +199,17 @@ h3{
 /*------------------------- GUITAR CHORDS --------------------------------------*/
 
 .basic-chords{
-    width: 100vw;
+    width: 90vw;
     height: 220vh;
     background-color:white;
     color: rgb(0, 0, 0);
     margin-top: 3%;
+    margin:auto;
 }
 .basic-chords-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     margin-bottom: 0%;
 
     animation: appear 2s linear;
@@ -214,9 +217,15 @@ h3{
     animation-range: entry 0% cover 40%;
 }
 .basic-chords-content h1{
-    font-size: 45px;
     margin-top: 5%;
     margin-bottom: 2%;
+    font-size: 50px;
+    margin-bottom: 2%;
+    color: #fff;
+    background:rgba(125, 0, 0, .9);
+    padding:10px;
+    box-shadow:0 0 2px black;
+    border-radius:5px;
 }
 .chords-container1{
     display: flex;
