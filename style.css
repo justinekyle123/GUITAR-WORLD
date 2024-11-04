@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:arial;
 }
 body{
-    background-color: #333;
+    background-color: #fff;
 }
 h3{
     margin-top: 2%;
@@ -12,7 +13,8 @@ h3{
     color: white;
 }
 .nav-bar{
-    background: #333;
+    background: black;
+    backdrop-filter:blur(5px);
     width: 100vw;
     height: 80px;
     display: flex;
@@ -27,9 +29,9 @@ h3{
 }
 .logo{
     color: rgb(250, 250, 250);
-    font-size: 20px;
+    font-size: 30px;
     color: yellow;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 .nav-bar a{
@@ -48,6 +50,27 @@ h3{
 }
 .nav-bar ul{
     margin-right: 0%;
+}
+
+/*------------------------------------LOGIN BTN-------------------------------------------*/
+
+#login-btn{
+ padding:5px 20px;
+ background:orangered;
+ border-radius:15px;
+ cursor:pointer;
+ border:none;
+ width:100px;
+ height:40px;
+ color:white;
+ transition:.2s;
+ font-size:17px;
+}
+#login-btn:hover{
+ transform:scale(1.05);
+ background:white;
+ color:black;
+ box-shadow:0 0 10px white;
 }
 
 /*------------------------------------ HOME PAGE ------------------------- */ 
@@ -101,7 +124,7 @@ h3{
 .get-started{
     width: 100vw;
     height: 280vh;
-    background: #000000;
+    background: #fff;
     display: flex;
     flex-direction: column;
     gap: 8em;
@@ -121,8 +144,11 @@ h3{
 }
 .get-started p{
     margin-bottom: 3%;
-    color: #ffffff;
+    color: #333;
     font-size: 20px;
+}
+.get-started h3{
+ color:#000;
 }
 /*---------------------------------------------GUITAR IMG --------------------------*/
 .guitar-container1 img{
