@@ -56,11 +56,11 @@
     color: #333;
     border-radius: 50%;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 5px;
     transition: .3s;
 }
 .icons a i{
-    font-size: 22px;
+    font-size: 30px;
     transition: .3s;
 }
 
