@@ -29,6 +29,23 @@ body{
     gap:3em;
 }
 
+/* ---------------------------------------------SIDE CONTENTS RIGTH------------------------------------------*/
+
+.side-contents-right{
+    width: 20vw;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 3px 
+}
+
 
 /*-----------------------------NAV BAR -----------------------------------------------------------*/
 
