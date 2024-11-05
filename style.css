@@ -4,9 +4,34 @@
     font-family:arial;
 }
 body{
-    background-color: #fff;
+    background-color: white;
     overflow-x:hidden;
 }
+/*----------------------------SIDE CONTENTS------------------------------------------------*/
+
+.side-contents{
+    width: 20vw;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 3px black;
+}
+.side-img{
+    display: flex;
+    flex-direction: column;
+    gap:3em;
+}
+
+
+/*-----------------------------NAV BAR -----------------------------------------------------------*/
+
 h3{
     margin-top: 2%;
     font-size: 30px;
@@ -22,7 +47,7 @@ h3{
     align-items: center;
     justify-content: center;
     gap: 10em;
-    position: absolute;
+    position: fixed;
 
     animation: appear 2s linear;
     animation-timeline: view();
@@ -76,7 +101,7 @@ h3{
 
 /*------------------------------------ HOME PAGE ------------------------- */ 
 .home-page{
-    width: 100vw;
+    width: 50vw;
     height: 85vh;
     background: url(home.jpg);
     background-repeat: no-repeat;
@@ -86,6 +111,7 @@ h3{
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: auto;
 }
 
 .home-content h1{
@@ -123,9 +149,9 @@ h3{
     /* ----------------------------------- GET STARTED ----------------------------------------------------- */
 
 .get-started{
-    width: 90vw;
+    width: 50vw;
     margin:auto;
-    height: 280vh;
+    height: 200vh;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -199,7 +225,7 @@ h3{
 /*------------------------- GUITAR CHORDS --------------------------------------*/
 
 .basic-chords{
-    width: 90vw;
+    width: 50vw;
     height: 220vh;
     background-color:white;
     color: rgb(0, 0, 0);
@@ -212,9 +238,10 @@ h3{
     align-items: left;
     margin-bottom: 0%;
 
-    animation: appear 2s linear;
+    /*animation: appear 2s linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
+    */
 }
 .basic-chords-content h1{
     margin-top: 5%;
@@ -241,7 +268,7 @@ h3{
 }
 
 .chord-C{
-    width: 90vw;
+    width: 50vw;
     height: 200px;
     background-color: white;
     border-radius: 10px;
@@ -249,12 +276,13 @@ h3{
     justify-content: space-between;
     align-items: center;
 
-    animation: appear linear;
+   /* animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
+    */
 }
 .chord-D{
-    width: 90vw;
+    width: 50vw;
     height: 200px;
     background-color: white;
     border-radius: 10px;
@@ -263,7 +291,7 @@ h3{
     align-items: center;
 }
 .chord-E{
-    width: 90vw;
+    width: 50vw;
     height: 200px;
     background-color: white;
     border-radius: 10px;
@@ -272,7 +300,7 @@ h3{
     align-items: center;
 }
 .chord-F{
-    width: 90vw;
+    width: 50vw;
     height: 200px;
     background-color: white;
     border-radius: 10px;
@@ -281,7 +309,7 @@ h3{
     align-items: center;
 }
 .chord-G{
-    width: 90vw;
+    width: 50vw;
     height: 200px;
     background-color: white;
     border-radius: 10px;
@@ -290,7 +318,7 @@ h3{
     align-items: center;
 }
 .chord-A{
-    width: 90vw;
+    width: 50vw;
     height: 200px;
     background-color: white;
     border-radius: 10px;
@@ -327,6 +355,12 @@ h3{
 
 
 @keyframes appear{
-    from{scale: .5;opacity: 0;}
-    to{scale:1;opacity: 1;}
+    from{
+        transform:translateY(200px);
+         opacity: 0;
+     }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
