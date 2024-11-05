@@ -1,3 +1,9 @@
+:root{
+    --h1-font-size: 20px;
+    --p-font-size: 20px;
+    --background:#146ef5;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -56,15 +62,16 @@ h3{
     color: white;
 }
 .nav-bar{
-    background: black;
+    background:var(--background);
     backdrop-filter:blur(5px);
     width: 100vw;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10em;
+    gap: 5em;
     position: fixed;
+    z-index: 999;
 
     animation: appear 2s linear;
     animation-timeline: view();
@@ -182,10 +189,10 @@ h3{
     margin-top: 5%;
 }
 .get-started-content h1{
-    font-size: 30px;
+    font-size: var(--h1-font-size);
     margin-bottom: 2%;
     color: #fff;
-    background:rgba(125, 0, 0, .9);
+    background:var(--background);
     padding:15px;
     box-shadow:0 0 2px black;
     border-radius:5px;
@@ -263,10 +270,10 @@ h3{
 .basic-chords-content h1{
     margin-top: 5%;
     margin-bottom: 2%;
-    font-size: 30px;
+    font-size: var(--h1-font-size);
     margin-bottom: 2%;
     color: #fff;
-    background:rgba(125, 0, 0, .9);
+    background:var(--background);
     padding:15px;
     box-shadow:0 0 2px black;
     border-radius:5px;

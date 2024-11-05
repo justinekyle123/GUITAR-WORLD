@@ -1,3 +1,8 @@
+
+:root{
+    --h1-font-size: 20px;
+    --p-font-size: 20px;
+}
 /* ======================GUTAR STINGS PAGE===================================*/
 .guitar-string{
     width: 50vw;
@@ -17,7 +22,7 @@
     
 }
 .guitar-string-content h1{
-    font-size: 30px;
+    font-size: var(--h1-font-size);
     color: white;
     margin-bottom: 2%;
     background: rgba(125, 0, 0, .9);
