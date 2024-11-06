@@ -22,6 +22,7 @@
 .guitar-img img{
     width: 50vw;
     border: 1px solid black;
+    margin: 15px;
 }
 
 .guitar-string-content h1{
@@ -30,6 +31,7 @@
     margin-bottom: 2%;
     background:var(--background);
     padding: 15px;
+    margin-top: 5%;
 }
 .guitar-string-content p{
     font-size: 20px;
