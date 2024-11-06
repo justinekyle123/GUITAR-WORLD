@@ -20,6 +20,7 @@ body{
     background-color: var(--background-body);
     overflow-x:hidden;
     letter-spacing: 1.2px;
+    font-size: 20px;
 }
 /*----------------------------SIDE CONTENTS------------------------------------------------*/
 /*

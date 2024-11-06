@@ -21,7 +21,7 @@
 }
 .guitar-img img{
     width: 50vw;
-    border: none;
+    border: 1px solid black;
 }
 
 .guitar-string-content h1{
@@ -45,6 +45,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-top: 20%;
 }
 
 .bottom-nav{
@@ -107,7 +108,7 @@
 
 /*-------------------footer copyright-----------------------------------------*/
 .footer-copyrigth{
-    width: 100v2;
+    width: 100vw;
     height: 70px;
     background-color: black;
     color: white;
