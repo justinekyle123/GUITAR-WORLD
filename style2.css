@@ -2,6 +2,13 @@
 :root{
     --h1-font-size: 20px;
     --p-font-size: 20px;
+    --p-color:black;
+    --p-font-size: 20px;
+    --background-nav:white;
+    --background:rgb(64, 113, 218);
+    --background-body:rgb(253, 253, 253);
+    --a-color:black;
+    --logo-color:black;
 }
 /* ======================GUTAR STINGS PAGE===================================*/
 .guitar-string{
@@ -25,7 +32,7 @@
     font-size: var(--h1-font-size);
     color: white;
     margin-bottom: 2%;
-    background: rgba(125, 0, 0, .9);
+    background:var(--background);
     padding: 15px;
 }
 .guitar-string-content p{

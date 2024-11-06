@@ -18,6 +18,7 @@
 body{
     background-color: var(--background-body);
     overflow-x:hidden;
+    letter-spacing: 1.2px;
 }
 /*----------------------------SIDE CONTENTS------------------------------------------------*/
 /*
@@ -149,7 +150,6 @@ h3{
 /*------------------------------------ HOME PAGE ------------------------- */ 
 .home-page{
     width: 50vw;
-    height: 85vh;
     background:var(--background-body);
     background-repeat: no-repeat;
     background-position: center;
@@ -157,7 +157,7 @@ h3{
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     margin: auto;
     margin-top: 5%;
 }
@@ -172,6 +172,8 @@ h3{
 .home-content p{
     color: var(--p-color);
     font-size: 20px;
+    margin-top: 3%;
+    max-width: 50vw;
 }
 .buttons{
     margin-top: 10%;
@@ -200,8 +202,7 @@ h3{
     /* ----------------------------------- GET STARTED ----------------------------------------------------- */
 
 .get-started{
-    width: 50vw;
-    margin:auto;
+   
     height: 250vh;
     background: #fff;
     display: flex;
@@ -236,29 +237,26 @@ h3{
 }
 /*---------------------------------------------GUITAR IMG --------------------------*/
 .guitar-container1 img{
-    width: 25%;
-    height: 25%;
+    width: 100%;
+    height: 100%;
     box-shadow: 0 0 2px black;
     cursor: pointer;
     transition: .3s;
 }
 .guitar-container2 img{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     box-shadow: 0 0 2px black;
     cursor: pointer;
     transition: .3s;
 }
 .guitar-container3 img{
-    width: 25%;
-    height: 25%;
+    width: 50vw;
     box-shadow: 0 0 2px black;
     cursor: pointer;
     transition: .3s;
 }
 .gitar-groups {
-    display: grid;
-    gap: 3em;
     width: 50vw;
     height: 50vh;
     background-color: red;
@@ -280,6 +278,8 @@ h3{
     flex-direction: column;
     align-items: left;
     margin-bottom: 0%;
+    padding: 10px;
+    margin: 10px;
 
     /*animation: appear 2s linear;
     animation-timeline: view();
@@ -299,6 +299,8 @@ h3{
 }
 
 .chords-container1{
+    width: 40vw;
+    margin: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
