@@ -12,8 +12,6 @@
 }
 /* ======================GUTAR STINGS PAGE===================================*/
 .guitar-string{
-    width: 50vw;
-    height: 100vh;
     background-color: white;
     display: flex;
     margin: auto;
@@ -22,12 +20,10 @@
     margin: auto;
 }
 .guitar-img img{
-    width: 50%;
-    box-shadow: 0 0 3px black;
+    width: 50vw;
+    border: none;
 }
-.guitar-string-content{
-    
-}
+
 .guitar-string-content h1{
     font-size: var(--h1-font-size);
     color: white;
